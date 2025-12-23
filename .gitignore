@@ -1,0 +1,58 @@
+node_modules
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Angular (front-web)
+# =========================
+front-web/angular-app/dist/
+front-web/angular-app/.angular/cache/
+front-web/angular-app/.cache/
+
+# =========================
+# Ionic (mobile-app)
+# =========================
+mobile-app/ionic-angular/www/
+mobile-app/ionic-angular/platforms/
+mobile-app/ionic-angular/plugins/
+
+# =========================
+# SQL Server
+# =========================
+*.mdf
+*.ldf
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+.history/
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testes e cobertura
+# =========================
+coverage/
+ZenLife/
